@@ -4,13 +4,13 @@ html {
 
 /* Vars */
 :root {
-  --primary-color: #E7DEDF;
+  --primary-color: #e7dedf;
   --primary-color-light: #fff;
-  --primary-color-dark:  rgb(180, 189, 185);
+  --primary-color-dark:  #b4bdb9;
 
   --secondary-color: #182120;
-  --secondary-color-light: rgb(44, 56, 53, 1);
-  --secondary-color-dark: rgba(14, 20, 19, 1);;
+  --secondary-color-light: #2c3835;
+  --secondary-color-dark: #0e1413;;
 
   /* Tests for light/dark mode
     --primary-color: #E7DEDF;
@@ -21,10 +21,8 @@ html {
     --secondary-color-light: rgb(44, 56, 53, 1);
     --secondary-color-dark: rgba(14, 20, 19, 1);; */
 
-  --accent-color: rgb(246, 226, 127, 1);
-  --accent-color-dark: rgba(230, 202, 92, 0.1);
-  
-  --gradient: linear-gradient(90deg, rgba(14,20,19,1) 0%, rgba(24,33,32,1) 30%);
+  --accent-color: #f6e27f;
+  --accent-color-dark: #e6ca5c1a;
 
   --wrap-width: 800px;
 }
@@ -38,7 +36,7 @@ html {
   
 body {
   background: var(--secondary-color);
-  background-image: var(--gradient);
+
   height: 100%;
   color: var(--primary-color);
 
