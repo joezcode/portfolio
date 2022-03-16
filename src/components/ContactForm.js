@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './ContactForm.css';
 import emailjs from 'emailjs-com'
 
