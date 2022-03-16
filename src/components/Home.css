@@ -1,0 +1,77 @@
+
+/*
+    Home style
+*/
+
+.Home {
+    min-height: calc(100vh - 95px);
+    margin: 100px auto 0;
+    display: flex;
+    align-items: center;
+}
+
+    .Home-message {
+        width: 100%;
+    }
+
+    .Home-message h2 {
+        color: var(--accent-color);
+        margin-bottom: 25px;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    @keyframes shadow {
+        0% {
+            text-shadow: -10px 10px 20px black;
+        }
+        40% {
+            text-shadow: none;
+        }
+        100% {
+            text-shadow: -10px 10px 20px black;
+        }
+      }
+        .Home-message, .Home-message h2 {
+            
+        }
+
+        .Home-message h2:last-of-type {
+            color: white;
+            margin-top: 25px;
+        }
+
+        /* .Home-message h1 {
+        } */
+        
+        .Home-message-highlight {
+            color: white;
+        }
+
+        #Home-message-position {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+    .button-cta {
+        padding: 1em 2em;
+        margin-top: 15px;
+        margin-right: 1em;
+        background: transparent;
+        color: var(--accent-color);
+        border: 1px solid var(--accent-color);
+        border-radius: 4px;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        font-weight:500;
+        line-height:0.95em;
+        cursor: pointer;
+    }
+
+        .button-cta-cta:hover {
+            background: var(--accent-color-dark);
+        }
+
+/* Roles Transition */
+
