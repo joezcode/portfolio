@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ad61fcde.css",
+    "main.js": "/portfolio/static/js/main.e94cbc5d.js",
+    "static/media/bmxshow.jpg": "/portfolio/static/media/bmxshow.253204823161ce68bb04.jpg",
+    "static/media/flyingcouch.jpg": "/portfolio/static/media/flyingcouch.f5d554d4a88d8b98fd77.jpg",
+    "static/media/me.jpg": "/portfolio/static/media/me.5e77869a5d00fa1f418d.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.7be9e6f5455a1da6d2cc.jpg",
+    "static/media/pytrader.jpg": "/portfolio/static/media/pytrader.48732e661895ad5d5eee.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.ad61fcde.css.map": "/portfolio/static/css/main.ad61fcde.css.map",
+    "main.e94cbc5d.js.map": "/portfolio/static/js/main.e94cbc5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad61fcde.css",
+    "static/js/main.e94cbc5d.js"
+  ]
+}
