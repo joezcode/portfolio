@@ -26,7 +26,7 @@ function Home() {
 
 
   return (
-    <div className="Home" name="Home">
+    <div className="Home reveal" name="Home">
       
       <div className="Home-message">
           <h2>Hello,</h2>

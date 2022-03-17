@@ -1,9 +1,15 @@
+import { useEffect } from 'react';
 import './About.css';
 import profilepic from '../assets/me.jpg'
 
 function About() {
+
+  useEffect(() => {
+    document.querySelector('.Content').classList.add('load');
+  })
+
   return (
-      <div className="About" name="About">
+      <div className="About reveal" name="About">
         <div className="About-backstory">
         <h1 className="About-backstory-headline separator">More about me</h1>
           <div className="About-backstory-column">
